@@ -1,29 +1,77 @@
-<section class="hero">
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-    <img src="images/hero.jpg" class="hero-image">
+.hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
 
-    <div class="hero-text">
+.hero-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
 
-        <div class="ocean">
-            Ocean.kss
-        </div>
+.hero-text{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:700px;
+    height:350px;
+    color:white;
+}
 
-        <div class="photo">
-            Photography
-        </div>
+.ocean{
+    position:absolute;
+    left:20px;
+    top:95px;
 
-        <div class="lovers">
-            for lovers,
-        </div>
+    font-size:88px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight:300;
+    line-height:1;
+}
 
-        <div class="families">
-            families
-        </div>
+.photo{
+    position:absolute;
+    left:290px;
+    top:140px;
 
-        <div class="dreamers">
-            and dreamers
-        </div>
+    font-size:92px;
+    font-family:"Cormorant Garamond", serif;
+    font-weight:300;
+    line-height:1;
+}
 
-    </div>
+.small{
+    position:absolute;
 
-</section>
+    font-family:cursive;
+    font-size:46px;
+    font-style:italic;
+    font-weight:300;
+}
+
+.top{
+    left:360px;
+    top:30px;
+    transform:rotate(-3deg);
+}
+
+.middle{
+    left:430px;
+    top:95px;
+    transform:rotate(2deg);
+}
+
+.bottom{
+    left:210px;
+    top:215px;
+    transform:rotate(-8deg);
+}
