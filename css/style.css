@@ -1,24 +1,29 @@
-.hero{
-    position:relative;
-    width:100%;
-    height:100vh;
-    overflow:hidden;
-}
+<section class="hero">
 
-.hero-image{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-}
+    <img src="images/hero.jpg" class="hero-image">
 
-.hero-text{
+    <div class="hero-text">
 
-    position:absolute;
-    left:12%;
-    top:50%;
+        <div class="ocean">
+            Ocean.kss
+        </div>
 
-    transform:translateY(-50%);
+        <div class="photo">
+            Photography
+        </div>
 
-    color:white;
+        <div class="lovers">
+            for lovers,
+        </div>
 
-}
+        <div class="families">
+            families
+        </div>
+
+        <div class="dreamers">
+            and dreamers
+        </div>
+
+    </div>
+
+</section>
